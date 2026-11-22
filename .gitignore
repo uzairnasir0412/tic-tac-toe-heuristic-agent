@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Build / generated files
+build/
+dist/
+out/
+*.class
+*.exe
+*.py[cod]
+__pycache__/
+node_modules/
+.venv/
+venv/
